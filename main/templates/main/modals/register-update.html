@@ -1,0 +1,107 @@
+<!-- Modal Structure -->
+<div class="modal fade" id="register-update" tabindex="-1" role="dialog" aria-labelledby="profileModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-md" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="profileModalLabel">Mother Pregnancy Details</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="pregnancyForm" method="post" action="{% url 'submit_pregnancy_details' %}">
+                    {% csrf_token %}
+
+                    <!-- Mother's NIN -->
+                    <div class="form-group">
+                        <label for="nin">Mother's NIN Number</label>
+                        <input type="text" class="form-control" id="nin" name="nin" value="{{ pregnancy_details.nin|default:'' }}" {% if pregnancy_details %}readonly{% endif %} required>
+                    </div>
+
+                    <!-- Mother's Name -->
+                    <div class="form-group">
+                        <label for="name">Mother's Name</label>
+                        <input type="text" class="form-control" id="name" name="name" value="{{ pregnancy_details.name|default:'' }}" required>
+                    </div>
+
+                    <!-- Baby's Sex -->
+                    <div class="form-group">
+                        <label for="babySex">Baby's Sex</label>
+                        <select class="form-control" id="babySex" name="baby_sex" required>
+                            <option value="">Select</option>
+                            <option value="boy" {% if pregnancy_details and pregnancy_details.baby_sex == "boy" %}selected{% endif %}>Boy</option>
+                            <option value="girl" {% if pregnancy_details and pregnancy_details.baby_sex == "girl" %}selected{% endif %}>Girl</option>
+                            <option value="twins" {% if pregnancy_details and pregnancy_details.baby_sex == "twins" %}selected{% endif %}>Twins</option>
+                            <option value="unknown" {% if pregnancy_details and pregnancy_details.baby_sex == "unknown" %}selected{% endif %}>I don't know yet</option>
+                        </select>
+                    </div>
+
+                    <!-- Baby's Due Date Choice -->
+                    <div class="form-group">
+                        <label for="dueDateChoice">How do you know the due date?</label>
+                        <select class="form-control" id="dueDateChoice" name="due_date_choice" onchange="toggleDateInput(this.value)" required>
+                            <option value="">Select</option>
+                            <option value="cycle_start" {% if pregnancy_details and pregnancy_details.due_date_choice == "cycle_start" %}selected{% endif %}>First day of the cycle</option>
+                            <option value="gestational_date" {% if pregnancy_details and pregnancy_details.due_date_choice == "gestational_date" %}selected{% endif %}>Gestational date</option>
+                            <option value="estimated_due_date" {% if pregnancy_details and pregnancy_details.due_date_choice == "estimated_due_date" %}selected{% endif %}>Estimated due date</option>
+                        </select>
+                    </div>
+
+                    <!-- Baby's Due Date -->
+                    <div class="form-group" id="dueDateInput" style="display: none;">
+                        <label for="dueDate">Enter Due Date</label>
+                        <input type="date" class="form-control" id="dueDate" name="due_date" value="{{ pregnancy_details.due_date|default:'' }}" required>
+                    </div>
+
+                    <!-- First Child -->
+                    <div class="form-group">
+                        <label for="firstChild">Is this your first child?</label>
+                        <select class="form-control" id="firstChild" name="first_child" required>
+                            <option value="">Select</option>
+                            <option value="true" {% if pregnancy_details and pregnancy_details.first_child %}selected{% endif %}>Yes</option>
+                            <option value="false" {% if pregnancy_details and not pregnancy_details.first_child %}selected{% endif %}>No</option>
+                        </select>
+                    </div>
+
+                    <!-- Mother's Age Group -->
+                    <div class="form-group">
+                        <label for="ageGroup">Your Age Group</label>
+                        <select class="form-control" id="ageGroup" name="age_group" required>
+                            <option value="">Select</option>
+                            <option value="18-24" {% if pregnancy_details and pregnancy_details.age_group == "18-24" %}selected{% endif %}>18-24 years old</option>
+                            <option value="25-34" {% if pregnancy_details and pregnancy_details.age_group == "25-34" %}selected{% endif %}>25-34 years old</option>
+                            <option value="35-44" {% if pregnancy_details and pregnancy_details.age_group == "35-44" %}selected{% endif %}>35-44 years old</option>
+                            <option value="44-above" {% if pregnancy_details and pregnancy_details.age_group == "44-above" %}selected{% endif %}>44 years old or above</option>
+                        </select>
+                    </div>
+
+                    <!-- Submit and Cancel Buttons -->
+                    <div class="text-right">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Display the due date input field if a choice is selected
+    document.addEventListener('DOMContentLoaded', () => {
+        const dueDateChoice = "{{ pregnancy_details.due_date_choice|default:'' }}";
+        const dueDateInput = document.getElementById('dueDateInput');
+        if (dueDateChoice) {
+            dueDateInput.style.display = 'block';
+        }
+    });
+
+    function toggleDateInput(value) {
+        const dateInput = document.getElementById('dueDateInput');
+        if (value) {
+            dateInput.style.display = 'block';
+        } else {
+            dateInput.style.display = 'none';
+        }
+    }
+</script>

@@ -1,0 +1,31 @@
+{% load static %}
+<nav class="sidebar sidebar-offcanvas" id="sidebar">
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'landing_page' %}">
+                <i class="icon-grid menu-icon"></i>
+                <span class="menu-title">Dashboard</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="modal" data-target="#register-update" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+                <i class="icon-layout menu-icon"></i>
+                <span class="menu-title">Register</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="modal" data-target="#insights" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+                <i class="icon-paper menu-icon"></i>
+                <span class="menu-title">Insights</span>
+            </a>
+        </li>
+        {% if request.session.user_nin %}
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'profile' %}" aria-expanded="false" aria-controls="ui-basic">
+                <i class="icon-head menu-icon"></i>
+                <span class="menu-title">View Your Profile</span>
+            </a>
+        </li>
+        {% endif %}
+    </ul>
+</nav>

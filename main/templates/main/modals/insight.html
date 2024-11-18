@@ -1,0 +1,19 @@
+<!-- Modal for each insight -->
+{% for category in Categories %} {% for insight in category.insights.all %}
+<div class="modal fade" id="insightModal{{ insight.id }}" tabindex="-1" role="dialog" aria-labelledby="insightModalLabel{{ insight.id }}" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="insightModalLabel{{ insight.id }}">{{ insight.title }}</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+            </div>
+            <div class="modal-body">
+                <img src="{{ insight.image.url }}" alt="Insight image" class="img-fluid mb-3 rounded mx-auto d-block" style="max-width: 100%; height: auto;">
+                <p>{{ insight.body|linebreaksbr }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %} {% endfor %}
