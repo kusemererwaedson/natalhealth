@@ -1,0 +1,337 @@
+Traceback (most recent call last):
+  File "/home/hakabvzf/repositories/natalhealth/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'natal_health/wsgi.py')
+  File "/opt/alt/python310/lib64/python3.10/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 719, in _load
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "natal_health/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+Traceback (most recent call last):
+  File "/home/hakabvzf/repositories/natalhealth/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'natal_health/wsgi.py')
+  File "/opt/alt/python310/lib64/python3.10/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 719, in _load
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "natal_health/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+Traceback (most recent call last):
+  File "/home/hakabvzf/repositories/natalhealth/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'natal_health/wsgi.py')
+  File "/opt/alt/python310/lib64/python3.10/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 719, in _load
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "natal_health/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+Traceback (most recent call last):
+  File "/home/hakabvzf/repositories/natalhealth/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'natal_health/wsgi.py')
+  File "/opt/alt/python310/lib64/python3.10/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 719, in _load
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "natal_health/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+Traceback (most recent call last):
+  File "/home/hakabvzf/repositories/natalhealth/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'natal_health/wsgi.py')
+  File "/opt/alt/python310/lib64/python3.10/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 719, in _load
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "natal_health/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+Traceback (most recent call last):
+  File "/home/hakabvzf/repositories/natalhealth/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'natal_health/wsgi.py')
+  File "/opt/alt/python310/lib64/python3.10/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 719, in _load
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "natal_health/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+Not Found: /static/vendors/feather/feather.css
+Not Found: /static/images/natal_health.jpeg
+Not Found: /static/images/faces/face1.jpg
+Not Found: /static/images/faces/face2.jpg
+Not Found: /static/images/faces/face3.jpg
+Not Found: /static/images/faces/face4.jpg
+Not Found: /static/images/faces/face5.jpg
+Not Found: /static/images/faces/face6.jpg
+Not Found: /static/vendors/js/vendor.bundle.base.js
+Not Found: /static/vendors/chart.js/Chart.min.js
+Not Found: /static/vendors/datatables.net/jquery.dataTables.js
+Not Found: /static/vendors/datatables.net-bs4/dataTables.bootstrap4.js
+Not Found: /static/js/dataTables.select.min.js
+Not Found: /static/js/off-canvas.js
+Not Found: /static/js/hoverable-collapse.js
+Not Found: /static/js/template.js
+Not Found: /static/vendors/ti-icons/css/themify-icons.css
+Not Found: /static/js/settings.js
+Not Found: /static/vendors/css/vendor.bundle.base.css
+Not Found: /static/js/todolist.js
+Not Found: /static/js/dashboard.js
+Not Found: /static/css/vertical-layout-light/style.css
+Not Found: /static/vendors/datatables.net-bs4/dataTables.bootstrap4.css
+Not Found: /static/js/Chart.roundedBarCharts.js
+Not Found: /static/js/select.dataTables.min.css
+Not Found: /static/css/vertical-layout-light/style.css
+Not Found: /static/vendors/datatables.net-bs4/dataTables.bootstrap4.css
+Not Found: /static/vendors/feather/feather.css
+Not Found: /static/images/natal_health.jpeg
+Not Found: /static/images/faces/face1.jpg
+Not Found: /static/images/faces/face2.jpg
+Not Found: /static/images/faces/face4.jpg
+Not Found: /static/images/faces/face3.jpg
+Not Found: /static/images/faces/face6.jpg
+Not Found: /static/images/faces/face5.jpg
+Not Found: /static/vendors/ti-icons/css/themify-icons.css
+Not Found: /static/js/select.dataTables.min.css
+Not Found: /static/vendors/css/vendor.bundle.base.css
+Not Found: /static/vendors/chart.js/Chart.min.js
+Not Found: /static/vendors/datatables.net-bs4/dataTables.bootstrap4.js
+Not Found: /static/vendors/js/vendor.bundle.base.js
+Not Found: /static/vendors/datatables.net/jquery.dataTables.js
+Not Found: /static/js/dataTables.select.min.js
+Not Found: /static/js/off-canvas.js
+Not Found: /static/js/Chart.roundedBarCharts.js
+Not Found: /static/js/todolist.js
+Not Found: /static/js/settings.js
+Not Found: /static/js/hoverable-collapse.js
+Not Found: /static/js/dashboard.js
+Not Found: /static/js/template.js
+Not Found: /static/images/favicon.png
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/vendors/feather/feather.css
+Not Found: /static/css/vertical-layout-light/style.css
+Not Found: /static/vendors/ti-icons/css/themify-icons.css
+Not Found: /static/js/select.dataTables.min.css
+Not Found: /static/images/natal_health.jpeg
+Not Found: /static/images/faces/face3.jpg
+Not Found: /static/images/faces/face2.jpg
+Not Found: /static/vendors/css/vendor.bundle.base.css
+Not Found: /static/images/faces/face1.jpg
+Not Found: /static/images/faces/face4.jpg
+Not Found: /static/vendors/datatables.net-bs4/dataTables.bootstrap4.css
+Not Found: /static/images/faces/face5.jpg
+Not Found: /static/images/faces/face6.jpg
+Not Found: /static/vendors/js/vendor.bundle.base.js
+Not Found: /static/vendors/chart.js/Chart.min.js
+Not Found: /static/vendors/datatables.net-bs4/dataTables.bootstrap4.js
+Not Found: /static/js/dataTables.select.min.js
+Not Found: /static/vendors/datatables.net/jquery.dataTables.js
+Not Found: /static/js/off-canvas.js
+Not Found: /static/js/hoverable-collapse.js
+Not Found: /static/js/Chart.roundedBarCharts.js
+Not Found: /static/js/todolist.js
+Not Found: /static/js/settings.js
+Not Found: /static/js/dashboard.js
+Not Found: /static/js/template.js
+Not Found: /static/images/favicon.png
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/vendors/feather/feather.css
+Not Found: /static/vendors/css/vendor.bundle.base.css
+Not Found: /static/vendors/ti-icons/css/themify-icons.css
+Not Found: /static/vendors/datatables.net-bs4/dataTables.bootstrap4.css
+Not Found: /static/images/faces/face2.jpg
+Not Found: /static/images/faces/face1.jpg
+Not Found: /static/css/vertical-layout-light/style.css
+Not Found: /static/images/natal_health.jpeg
+Not Found: /static/js/select.dataTables.min.css
+Not Found: /static/images/faces/face5.jpg
+Not Found: /static/images/faces/face6.jpg
+Not Found: /static/images/faces/face3.jpg
+Not Found: /static/images/faces/face4.jpg
+Not Found: /static/vendors/chart.js/Chart.min.js
+Not Found: /static/vendors/js/vendor.bundle.base.js
+Not Found: /static/vendors/datatables.net/jquery.dataTables.js
+Not Found: /static/vendors/datatables.net-bs4/dataTables.bootstrap4.js
+Not Found: /static/js/dataTables.select.min.js
+Not Found: /static/js/hoverable-collapse.js
+Not Found: /static/js/todolist.js
+Not Found: /static/js/off-canvas.js
+Not Found: /static/js/template.js
+Not Found: /static/js/settings.js
+Not Found: /static/js/dashboard.js
+Not Found: /static/js/Chart.roundedBarCharts.js
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/vendors/datatables.net-bs4/dataTables.bootstrap4.css
+Not Found: /static/js/select.dataTables.min.css
+Not Found: /static/vendors/feather/feather.css
+Not Found: /static/vendors/css/vendor.bundle.base.css
+Not Found: /static/vendors/ti-icons/css/themify-icons.css
+Not Found: /static/images/faces/face1.jpg
+Not Found: /static/images/natal_health.jpeg
+Not Found: /static/images/faces/face3.jpg
+Not Found: /static/images/faces/face2.jpg
+Not Found: /static/images/faces/face4.jpg
+Not Found: /static/css/vertical-layout-light/style.css
+Not Found: /static/images/faces/face6.jpg
+Not Found: /static/images/faces/face5.jpg
+Not Found: /static/vendors/chart.js/Chart.min.js
+Not Found: /static/js/off-canvas.js
+Not Found: /static/js/dataTables.select.min.js
+Not Found: /static/vendors/js/vendor.bundle.base.js
+Not Found: /static/vendors/datatables.net/jquery.dataTables.js
+Not Found: /static/vendors/datatables.net-bs4/dataTables.bootstrap4.js
+Not Found: /static/js/hoverable-collapse.js
+Not Found: /static/js/template.js
+Not Found: /static/js/todolist.js
+Not Found: /static/js/Chart.roundedBarCharts.js
+Not Found: /static/js/dashboard.js
+Not Found: /static/js/settings.js
+Not Found: /static/vendors/feather/feather.css
+Not Found: /static/vendors/ti-icons/css/themify-icons.css
+Not Found: /static/images/faces/face1.jpg
+Not Found: /static/images/faces/face2.jpg
+Not Found: /static/vendors/css/vendor.bundle.base.css
+Not Found: /static/images/faces/face4.jpg
+Not Found: /static/images/faces/face3.jpg
+Not Found: /static/js/select.dataTables.min.css
+Not Found: /static/images/faces/face5.jpg
+Not Found: /static/images/faces/face6.jpg
+Not Found: /static/css/vertical-layout-light/style.css
+Not Found: /static/vendors/datatables.net-bs4/dataTables.bootstrap4.css
+Not Found: /static/images/natal_health.jpeg
+Not Found: /static/vendors/chart.js/Chart.min.js
+Not Found: /static/vendors/js/vendor.bundle.base.js
+Not Found: /static/js/dataTables.select.min.js
+Not Found: /static/vendors/datatables.net/jquery.dataTables.js
+Not Found: /static/js/off-canvas.js
+Not Found: /static/js/template.js
+Not Found: /static/vendors/datatables.net-bs4/dataTables.bootstrap4.js
+Not Found: /static/js/hoverable-collapse.js
+Not Found: /static/js/settings.js
+Not Found: /static/js/Chart.roundedBarCharts.js
+Not Found: /static/js/todolist.js
+Not Found: /static/js/dashboard.js
+Not Found: /static/vendors/feather/feather.css
+Not Found: /static/css/vertical-layout-light/style.css
+Not Found: /static/vendors/datatables.net-bs4/dataTables.bootstrap4.css
+Not Found: /static/vendors/ti-icons/css/themify-icons.css
+Not Found: /static/images/faces/face1.jpg
+Not Found: /static/vendors/css/vendor.bundle.base.css
+Not Found: /static/images/natal_health.jpeg
+Not Found: /static/js/select.dataTables.min.css
+Not Found: /static/images/faces/face3.jpg
+Not Found: /static/images/faces/face4.jpg
+Not Found: /static/images/faces/face5.jpg
+Not Found: /static/images/faces/face6.jpg
+Not Found: /static/images/faces/face2.jpg
+Not Found: /static/vendors/js/vendor.bundle.base.js
+Not Found: /static/js/dataTables.select.min.js
+Not Found: /static/vendors/datatables.net-bs4/dataTables.bootstrap4.js
+Not Found: /static/vendors/chart.js/Chart.min.js
+Not Found: /static/vendors/datatables.net/jquery.dataTables.js
+Not Found: /static/js/off-canvas.js
+Not Found: /static/js/hoverable-collapse.js
+Not Found: /static/js/settings.js
+Not Found: /static/js/todolist.js
+Not Found: /static/js/template.js
+Not Found: /static/js/dashboard.js
+Not Found: /static/js/Chart.roundedBarCharts.js
+Not Found: /favicon.ico
+Not Found: /.env
+Forbidden (Referer checking failed - no Referer.): /
+Not Found: /js/data.txt
+Not Found: /js/data.txt
+Not Found: /static/index.html
+Not Found: /favicon.ico
+Not Found: /static/index.html
+Not Found: /backend/.env
+Not Found: /staging/.env
+Not Found: /app/.env
+Not Found: /api/.env
+Not Found: /src/.env
+Not Found: /v2/.env
+Not Found: /api/v1/.env
+Not Found: /v1/.env
+Not Found: /core/.env
+Not Found: /public/.env
+Not Found: /api/v2/.env
+Not Found: /dev/.env
+Not Found: /production/.env
+Not Found: /server/.env
+Not Found: /private/.env
+Not Found: /web/.env
+Not Found: /app/env/.env
+Not Found: /var/www/.env
+Not Found: /drupal/.env
+Not Found: /system/.env
+Not Found: /environment/.env
+Not Found: /services/.env
+Not Found: /app/config/.env
+Not Found: /laravel/.env
+Not Found: /wordpress/.env
+Not Found: /html/.env
+Not Found: /config/.env
+Not Found: /favicon.ico
+Not Found: /js/data.txt
+Not Found: /js/data.txt
+Not Found: /js/data.txt
+Not Found: /js/data.txt
+Not Found: /static/index.html
+Not Found: /favicon.ico
+Not Found: /favicon.ico
